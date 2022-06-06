@@ -1,0 +1,24 @@
+.content__color-pink{
+    position: absolute;
+    top: 85px;
+    right: calc(100% - 90%);
+}
+
+@media screen and (max-width: 900px) {
+    .content__color-pink{
+        top: 320px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .content__color-pink{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .content__color-pink{
+        opacity: 0.6;
+    }
+}

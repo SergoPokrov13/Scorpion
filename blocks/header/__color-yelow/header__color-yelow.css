@@ -1,0 +1,23 @@
+.header__color-yelow{
+    position: absolute;
+    top: 0;
+    left: calc(100% - 90%);
+}
+
+@media screen and (max-width: 900px) {
+    .header__color-yelow{
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .header__color-yelow{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header__color-yelow{
+        opacity: 0.6;
+    }
+}

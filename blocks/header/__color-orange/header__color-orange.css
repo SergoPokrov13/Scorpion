@@ -1,0 +1,17 @@
+.header__color-orange{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .header__color-orange{
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header__color-orange{
+        opacity: 0.6;
+    }
+}

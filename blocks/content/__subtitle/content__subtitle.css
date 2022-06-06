@@ -1,0 +1,11 @@
+.content__subtitle {
+    margin: 25px 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
