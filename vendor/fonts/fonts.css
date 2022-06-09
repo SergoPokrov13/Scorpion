@@ -1,17 +1,1 @@
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("./inter/Inter-Bold.woff2") format("woff2"),
-        url("./inter/Inter-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(".//inter/Inter-Regular.woff2") format("woff2"),
-        url("./inter/Inter-Regular.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
