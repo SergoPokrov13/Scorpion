@@ -183,8 +183,111 @@
     color: #000000;
 }
 
-.info__color-orange{
+.info__color-orange {
     top: 45px;
     position: absolute;
     left: 0;
+}
+
+.sites {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sites__title {
+    max-width: 400px;
+}
+
+.sites__block {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sites__item {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sites__subtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 124%;
+    color: #FFFFFF;
+    width: 315px;
+    max-width: 300px;
+    height: 222px;
+    margin: 40px 0 0 0;
+    padding: 24px 0 0 15px;
+}
+
+.blue{
+    background-image: url(../images/);
+}
+
+.green{
+    background-image: url(../images/BackgroundGreen.png);
+}
+
+.orange{
+    background-image: url(../images/BackrondOrange.png);
+}
+
+.sites__background-color {
+    margin: -70px -110px 0 -180px;
+    max-width: 655px ;
+    max-height: 655px;
+}
+
+.sites__image {
+    margin-top: -460px;
+}
+
+.sites__button-left{
+    position: absolute;
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+    top: 340px;
+    left: -70px;
+}
+
+.sites__button-left_green{
+    background: url(../images/ArrowLeftGreen.svg);
+}
+
+.sites__button-left_opange{
+    background: url(../images/ArrowLeftOrange.svg);
+}
+
+.sites__button-left_blue{
+    background: url(../images/ArrowLeftBlue.svg);
+}
+
+.sites__button-rigt{
+    position: absolute;
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+    top: 340px;
+    right: -70px;
+}
+
+.sites__button-rigt_green{
+    background: url(../images/ArrowRightGreen.svg);
+}
+
+.sites__button-rigt_orange{
+    background: url(../images/ArrowRightOrange..svg);
+}
+
+.sites__button-rigt_blue{
+    background: url(../images/ArrowRightBlue.svg);
 }
