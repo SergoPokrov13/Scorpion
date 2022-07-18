@@ -1,0 +1,12 @@
+.gasebos__block {
+    display: flex;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .gasebos__block {
+        flex-direction: column;
+        align-items: center;
+    }
+ }

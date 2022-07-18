@@ -1,0 +1,17 @@
+.info__list {
+    max-width: 870px;
+    margin: 42px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    gap: 46px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 860px) {
+    .info__list {
+        grid-template-columns: 225px;
+        gap: 26px;
+    }
+ }

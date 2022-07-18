@@ -1,0 +1,12 @@
+.info__subtitle {
+    margin: 30px 0 0;
+    max-width: 186px;
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.56px;
+    color: #000000;
+}

@@ -1,0 +1,5 @@
+.price__info_item {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}

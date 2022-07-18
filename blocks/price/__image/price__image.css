@@ -1,0 +1,21 @@
+.price__image {
+    width: 220px;
+    height: 220px;
+}
+
+@media screen and (max-width: 640px) {
+    .price__image {
+        width: 150px;
+        height: 150px;
+    }
+    
+ }
+
+ @media screen and (max-width: 360px) {
+    .price__image {
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
+    
+ }

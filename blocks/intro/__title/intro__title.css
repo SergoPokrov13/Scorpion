@@ -1,0 +1,23 @@
+.intro__title {
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .intro__title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+ }
+
+ @media screen and (max-width: 800px) {
+    .intro__title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+ }

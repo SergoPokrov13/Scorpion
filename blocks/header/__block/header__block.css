@@ -1,0 +1,20 @@
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 130px;
+    min-width: 110px;
+    max-height: 40px;
+    background: #009746;
+    border-radius: 3px;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 580px) {
+    .header__block {
+        order: 1;
+        margin-top: 5px;
+        max-width: 110px;
+        max-height: 20px;
+    }
+ }

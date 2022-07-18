@@ -1,0 +1,36 @@
+.intro {
+    margin-top: 100px;
+    position: relative;
+    background: #2B2A28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+}
+
+.intro::after {
+    content: '';
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    right: 0;
+    height: 500px;
+    transform: skewY(-10deg);
+    background: #2B2A28;
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 420px;
+    }
+ }
+
+ @media screen and (max-width: 580px) {
+    .intro {
+        margin-top: 80px;
+    }
+ }

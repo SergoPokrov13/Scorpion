@@ -1,0 +1,17 @@
+.intro__image {
+    width: 475px;
+    margin-top: 18px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 950px) {
+    .intro__image {
+        width: 375px;
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+    .intro__image {
+        width: 275px;
+    }
+ }

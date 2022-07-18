@@ -1,0 +1,19 @@
+.gasebos__info-title {
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.56px;
+    color: #000000;
+    margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .gasebos__info-title {
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+ }

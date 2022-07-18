@@ -1,0 +1,17 @@
+.info__color-orange {
+    top: 45px;
+    position: absolute;
+    left: 0;
+}
+
+@media screen and (max-width: 1230px) {
+    .info__color-orange  {
+        opacity: 0.5;
+    }
+ }
+
+ @media screen and (max-width: 860px) {
+    .info__color-orange  {
+        top: 345px;
+    }
+ }

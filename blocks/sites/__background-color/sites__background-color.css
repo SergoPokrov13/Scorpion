@@ -1,0 +1,20 @@
+.sites__background-color {
+    margin: -70px -110px 0 -180px;
+    width: 655px;
+
+}
+
+ @media screen and (max-width: 1020px) {
+    .sites__background-color {
+        width: 455px;
+        opacity: 0.3;
+    }
+ }
+
+ @media screen and (max-width: 720px) {
+    .sites__background-color {
+        width: 155px;
+        margin: -40px -30px 0 -200px;
+    }
+ }
+

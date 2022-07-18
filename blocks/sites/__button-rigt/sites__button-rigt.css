@@ -1,0 +1,40 @@
+.sites__button-rigt {
+    position: absolute;
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+    top: 280px;
+    right: -70px;
+}
+
+.sites__button-rigt_green {
+    background: url(../../../images/ArrowRightGreen.svg);
+    background-size: cover;
+}
+
+.sites__button-rigt_orange {
+    background: url(../../../images/ArrowRightOrange..svg);
+    background-size: cover;
+}
+
+.sites__button-rigt_blue {
+    background: url(../../../images/ArrowRightBlue.svg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1020px) {
+    .sites__button-rigt {
+        top: 230px;
+        right: -65px;
+    }
+ }
+
+ @media screen and (max-width: 720px) {
+    .sites__button-rigt {
+        min-height: 25px;
+        min-width: 25px;
+        top: 75px;
+        right: -25px;
+    }
+ }
+

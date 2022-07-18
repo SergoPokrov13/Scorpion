@@ -1,0 +1,13 @@
+.sites {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 930px) {
+    .sites {
+        padding-top: 100px;
+    }
+ }

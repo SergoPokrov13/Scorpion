@@ -1,0 +1,12 @@
+.info {
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@media screen and (max-width: 860px) {
+    .info {
+        margin-top: 280px;
+    }
+ }

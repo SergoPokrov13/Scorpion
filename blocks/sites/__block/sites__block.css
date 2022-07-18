@@ -1,0 +1,18 @@
+.sites__block {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 1020px) {
+    .sites__block {
+        max-width: 600px;
+    }
+ }
+
+ @media screen and (max-width: 720px) {
+    .sites__block {
+        margin-top: 20px;
+    }
+ }

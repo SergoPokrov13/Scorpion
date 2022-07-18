@@ -1,0 +1,15 @@
+.price__title{
+    width: 417px;
+}
+
+@media screen and (max-width: 740px) {
+    .price__title{
+        width: 317px;
+    }
+ }
+
+ @media screen and (max-width: 550px) {
+    .price__title{
+        width: 250px;
+    }
+ }

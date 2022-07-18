@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Logo.svg">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Пейнтбол Scorpion</title>
 </head>
@@ -13,17 +14,19 @@
     <div class="root">
         <header class="header">
             <img class="header__logo" src="./images/Logo.svg" alt="Логотип">
-            <ul class="header__links">
-                <li class="header__item"><a class="header__link" href="#">Главная</a></li>
-                <li class="header__item"><a class="header__link" href="#">Площадки</a></li>
-                <li class="header__item"><a class="header__link" href="#">Беседки</a></li>
-                <li class="header__item"><a class="header__link" href="#">Цены</a></li>
-                <li class="header__item"><a class="header__link" href="#">Запись</a></li>
-                <li class="header__item"><a class="header__link" href="#">Акции</a></li>
-                <li class="header__item"><a class="header__link" href="#">Контакты</a></li>
-            </ul>
-            <div class="header__block">
-                <p class="header__block_number">+7 (49323) 6-73-33</p>
+            <div class="header__column">
+                <ul class="header__links">
+                    <li class="header__item button"><a class="header__link" href="#">Главная</a></li>
+                    <li class="header__item button"><a class="header__link" href="#sites">Площадки</a></li>
+                    <li class="header__item button"><a class="header__link" href="#gasebos">Беседки</a></li>
+                    <li class="header__item button"><a class="header__link" href="#price">Цены</a></li>
+                    <li class="header__item button"><a class="header__link" href="#">Запись</a></li>
+                    <li class="header__item button"><a class="header__link" href="#stock">Акции</a></li>
+                    <li class="header__item button"><a class="header__link" href="#contact">Контакты</a></li>
+                </ul>
+                <div class="header__block">
+                    <p class="header__block_number">+7 (49323) 6-73-33</p>
+                </div>
             </div>
         </header>
 
@@ -33,26 +36,27 @@
                 <div class="intro__info">
                     <h1 class="intro__title">Пейнтбольный клуб "Scorpion"
                         От нас вы точно уйдёте с отличным настроением!</h1>
-                    <button type="button" class="intro__button">Подробнее</button>
+                    <a href="https://vk.com/scorpion367333"><button type="button"
+                            class="intro__button button">Подробнее</button></a>
                 </div>
                 <img class="intro__color-yelow" src="./images/Yelow.png" alt="Капля краски желтый">
             </section>
             <section class="info">
                 <ul class="info__list">
                     <li class="info__card">
-                        <img class="info__image" src="./images/Info_pl.svg" alt="Площадки">
+                        <img class="info__image" src="./images/InfoPl.svg" alt="Площадки">
                         <p class="info__subtitle">Три площадки<br>для игр в пейнтбол</p>
                     </li>
-                    <li class="info__card"><img class="info__image" src="./images/Info_pl.svg" alt="Беседки">
+                    <li class="info__card"><img class="info__image" src="./images/InfoGlasbos.svg" alt="Беседки">
                         <p class="info__subtitle">Комфортные<br>беседки</p>
                     </li>
-                    <li class="info__card"><img class="info__image" src="./images/Info_pl.svg" alt="Огонь">
+                    <li class="info__card"><img class="info__image" src="./images/InfoFire.svg" alt="Огонь">
                         <p class="info__subtitle">Незабываемые<br>впечатления</p>
                     </li>
                 </ul>
                 <img class="info__color-orange" src="./images/orange.png" alt="Капля краски оранжевый">
             </section>
-            <section class="sites">
+            <section id="sites" class="sites">
                 <img class="sites__title" src="./images/Sites.svg" alt="Площадки">
                 <div class="sites__block">
                     <div class="sites__item">
@@ -60,8 +64,8 @@
                         <img class="sites__background-color" src="./images/ColorGreenSites.png" alt="">
                     </div>
                     <img class="sites__image" src="./images/SitesBochki.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_green"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_green"></button>
+                    <button type="button" class="sites__button-left sites__button-left_green button"></button>
+                    <button type="button" class="sites__button-rigt sites__button-rigt_green button"></button>
                 </div>
                 <div class="sites__block">
                     <div class="sites__item">
@@ -69,8 +73,8 @@
                         <img class="sites__background-color" src="./images/ColorOrangeSites.png" alt="">
                     </div>
                     <img class="sites__image" src="./images/SitesGrove.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_orange"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_orange"></button>
+                    <button type="button" class="sites__button-left sites__button-left_orange button"></button>
+                    <button type="button" class="sites__button-rigt sites__button-rigt_orange button"></button>
                 </div>
                 <div class="sites__block">
                     <div class="sites__item">
@@ -78,18 +82,18 @@
                         <img class="sites__background-color" src="./images/ColorBlueSites.png" alt="">
                     </div>
                     <img class="sites__image" src="./images/SitesFort.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_blue"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_blue"></button>
+                    <button type="button" class="sites__button-left sites__button-left_blue button"></button>
+                    <button type="button" class="sites__button-rigt sites__button-rigt_blue button"></button>
                 </div>
             </section>
-            <section class="gasebos">
+            <section id="gasebos" class="gasebos">
                 <img class="gasebos__color-pink" src="./images/ColorPink.png" alt="">
                 <img class="gasebos__title" src="./images/GazebosTitle.svg" alt="">
                 <div class="gasebos__block">
                     <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_blue"></button>
+                        <button type="button" class="gasebos__button-left gasebos__button-left_blue button"></button>
                         <img class="gasebos__image" src="./images/GazebosOne.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_blue"></button>
+                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_blue button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 1</h2>
@@ -100,9 +104,9 @@
                 </div>
                 <div class="gasebos__block">
                     <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_orange"></button>
+                        <button type="button" class="gasebos__button-left gasebos__button-left_orange button"></button>
                         <img class="gasebos__image" src="./images/GasebosTwo.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_orange"></button>
+                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_orange button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 2</h2>
@@ -113,9 +117,9 @@
                 </div>
                 <div class="gasebos__block">
                     <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_green"></button>
+                        <button type="button" class="gasebos__button-left gasebos__button-left_green button"></button>
                         <img class="gasebos__image" src="./images/GasebosThree.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_green"></button>
+                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_green button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 3</h2>
@@ -126,7 +130,7 @@
                 </div>
                 <img class="gasebos__color-orange-yelow" src="./images/ColorOrngeYelow.png" alt="">
             </section>
-            <section class="price">
+            <section id="price" class="price">
                 <img class="price__title" src="./images/PriceTitle.svg" alt="">
                 <div class="price__block">
                     <img class="price__image" src="./images/PriceVhod.png" alt="">
@@ -180,16 +184,6 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceTrunk.png" alt="">
-                    <div class="price__info">
-                        <h2 class="price__info_title">Удлиненный ствол</h2>
-                        <p class="price__info_subtitle">увеличивает дальность и точность стрельбы</p>
-                        <div class="price__info_item">
-                            <p class="price__info_value">100 руб.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="price__block">
                     <img class="price__image" src="./images/PriceZone.png" alt="">
                     <div class="price__info">
                         <h2 class="price__info_title">Зона отдыха</h2>
@@ -199,9 +193,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="price__block">
+                    <img class="price__image" src="./images/PriceTrunk.png" alt="">
+                    <div class="price__info">
+                        <h2 class="price__info_title">Удлиненный ствол</h2>
+                        <p class="price__info_subtitle">увеличивает дальность и точность стрельбы</p>
+                        <div class="price__info_item">
+                            <p class="price__info_value">100 руб.</p>
+                        </div>
+                    </div>
+                </div>
                 <img class="price__color-greeen" src="./images/ColorGreen.png" alt="">
             </section>
-            <section class="stock">
+            <section class="recording">
+                <img class="recording__title" src="./images/Recording.svg" alt="">
+            </section>
+            <section id="stock" class="stock">
                 <img class="stock__color-blue" src="./images/ColorBlue.png" alt="">
                 <img class="stock__title" src="./images/StockTitle.svg" alt="">
                 <div class="stock__info">
@@ -235,8 +242,8 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
-                <img class="contact__title" src="./images/ContactTitle.png" alt="">
+            <section id="contact" class="contact">
+                <img class="contact__g-title" src="./images/ContactTitle.svg" alt="">
                 <ul class="contact__list">
                     <li class="contact__item">
                         <img class="contact__image" src="./images/ContactMap.svg" alt="">
@@ -259,16 +266,68 @@
                         <p class="contact__subtitle">scorpion367-333@mail.ru</p>
                     </li>
                 </ul>
-                <iframe src="https://yandex.ru/map-widget/v1/-/CCUNNDEDHB" width="685" height="380"
-                    allowfullscreen="true" style="margin-top: 70px; border: none;"></iframe>
+                <div class="contact__iframe-map">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A879002f9d1c36f6f6313b1a44d8096bc4a1016f6c9a24a1b12a312adfd3c2a01&amp;source=constructor"
+                        frameborder="0" name="iframe" width="100%" height="100%">
+                    </iframe>
+                </div>
                 <div class="contact__promo">
                     <p class="contact__promo_text">*Назови промокод и получи вход прокат бесплатно
                         <br>* При регистрации необходимо указать в комментарии "Регистрация". Скидка предоставляется
-                        единовременно на одного играющего из команды.
+                        <br>единовременно на одного играющего из команды.
                     </p>
                 </div>
             </section>
         </main>
+        <footer class="footer">
+            <div class="footer__block">
+                <h2 class="footer__title">Собирай друзей и приходи играть
+                    в пейнтбольный клуб Scorpion!</h2>
+                <p class="footer__subtitle">Подпишитесь для новых новостей.</p>
+            </div>
+            <div class="footer__info">
+                <ul class="footer__links">
+                    <li class="footer__link button"><a class="footer__text" href="#">Главная</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#sites">Площадки</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#gasebos">Беседки</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#price">Цены</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#">Запись</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#stock">Акции</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#contact">Контакты</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <img class="footer__image" src="./images/FooterMap.svg" alt="">
+                        <div class="footer__item-info">
+                            <h2 class="footer__item-title">Адрес</h2>
+                            <p class="footer__item-subtitle">Аэодром “Ясюниха”</p>
+                        </div>
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__image" src="./images/FooterTelephone.svg" alt="">
+                        <div class="footer__item-info">
+                            <h2 class="footer__item-title">Телефон</h2>
+                            <p class="footer__item-subtitle">+7(4932)367-333</p>
+                        </div>
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__image" src="./images/FooterMode.svg" alt="">
+                        <div class="footer__item-info">
+                            <h2 class="footer__item-title">Режим работы</h2>
+                            <p class="footer__item-subtitle">По заказам</p>
+                        </div>
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__image" src="./images/FooterMail.svg" alt="">
+                        <div class="footer__item-info">
+                            <h2 class="footer__item-title">Email</h2>
+                            <p class="footer__item-subtitle">scorpion367-333<br>@mail.ru</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
         <script src="./scripts/index.js"></script>
 

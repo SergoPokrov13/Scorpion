@@ -1,0 +1,12 @@
+.gasebos__color-orange-yelow {
+    position: absolute;
+    right: 0;
+    bottom: -300px;
+}
+
+@media screen and (max-width: 1400px) {
+    .gasebos__color-orange-yelow {
+        opacity: 0.3;
+        width: 310px;
+    }
+}

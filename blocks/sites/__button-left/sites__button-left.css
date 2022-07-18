@@ -1,0 +1,43 @@
+.sites__button-left {
+    position: absolute;
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+    top: 280px;
+    left: -70px;
+}
+
+.sites__button-left_green {
+    background: url(../../../images/ArrowLeftGreen.svg);
+    background-size: cover;
+}
+
+.sites__button-left_orange {
+    background: url(../../../images/ArrowLeftOrange.svg);
+    background-size: cover;
+}
+
+.sites__button-left_blue {
+    background: url(../../../images/ArrowLeftBlue.svg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1020px) {
+    .sites__button-left {
+        position: absolute;
+        border: none;
+        min-width: 60px;
+        min-height: 60px;
+        top: 230px;
+        left: -70px;
+    }
+ }
+
+ @media screen and (max-width: 720px) {
+    .sites__button-left {
+        min-height: 25px;
+        min-width: 25px;
+        top: 75px;
+        left: -25px;
+    }
+ }

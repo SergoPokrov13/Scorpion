@@ -1,0 +1,11 @@
+.intro__info {
+    max-width: 460px;
+    margin-left: 60px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__info {
+        margin-left: 20px;
+    }
+ }

@@ -1,0 +1,11 @@
+.stock__title{
+    width: 417px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 550px) {
+    .stock__title{
+        width: 250px;
+    }
+    
+}

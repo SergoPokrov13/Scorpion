@@ -1,0 +1,19 @@
+.footer__item-subtitle{
+    text-align: center;
+    margin: 5px 0 0;
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 390px) {
+    .footer__item-subtitle{
+        font-size: 12px;
+        line-height: 15px;
+    } 
+}

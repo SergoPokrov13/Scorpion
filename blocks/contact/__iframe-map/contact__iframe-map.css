@@ -1,0 +1,29 @@
+.contact__iframe-map {
+    width: 685px;
+    height: 380px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 720px) {
+    .contact__iframe-map {
+        width: 550px;
+        height: 280px;
+        margin-top: 60px;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .contact__iframe-map {
+        width: 350px;
+        height: 180px;
+        margin-top: 50px;
+    }
+ }
+
+ @media screen and (max-width: 380px) {
+    .contact__iframe-map {
+        width: 310px;
+        height: 140px;
+        margin-top: 40px;
+    }
+ }

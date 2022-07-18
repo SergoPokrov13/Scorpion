@@ -1,0 +1,10 @@
+.gasebos__slide {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .gasebos__slide {
+        order: 2;
+    }   
+ }

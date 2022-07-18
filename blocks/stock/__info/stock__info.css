@@ -1,0 +1,11 @@
+.stock__info {
+    display: flex;
+    margin-top: 70px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1400px) {
+    .stock__info {
+        display: block;
+    }
+}

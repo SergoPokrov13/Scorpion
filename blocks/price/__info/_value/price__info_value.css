@@ -1,0 +1,15 @@
+.price__info_value {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 33px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #3F3B3D;
+
+}

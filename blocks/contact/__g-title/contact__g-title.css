@@ -1,0 +1,9 @@
+.contact__g-title{
+    width: 417px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact__g-title{
+        width: 250px;
+    }
+}

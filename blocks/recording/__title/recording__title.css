@@ -1,0 +1,9 @@
+.recording__title{
+    width: 417px;
+}
+
+@media screen and (max-width: 550px) {
+    .recording__title{
+        width: 250px;
+    }  
+}

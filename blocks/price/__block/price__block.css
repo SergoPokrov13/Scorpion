@@ -1,0 +1,14 @@
+.price__block {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+    .price__block {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+ }

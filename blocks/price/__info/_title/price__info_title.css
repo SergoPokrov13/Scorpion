@@ -1,0 +1,18 @@
+.price__info_title {
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.56px;
+    color: #010101;
+    margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .price__info_title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+ }

@@ -1,0 +1,12 @@
+.gasebos__color-pink {
+    position: absolute;
+    left: 0;
+    top: -170px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 660px) {
+    .gasebos__color-pink {
+        opacity: 0.3;
+    }
+}

@@ -1,0 +1,30 @@
+.price__info {
+    width: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 930px) {
+    .price__info {
+        width: 468px;
+    }
+ }
+
+ @media screen and (max-width: 740px) {
+    .price__info {
+        width: 368px;
+    }
+ }
+
+ @media screen and (max-width: 640px) {
+    .price__info {
+        width: 268px;
+    }
+ }
+
+ @media screen and (max-width: 640px) {
+    .price__info {
+        width: 168px;
+    }
+ }

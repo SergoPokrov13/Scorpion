@@ -1,0 +1,30 @@
+.gasebos__button-left {
+    border: none;
+    min-width: 60px;
+    min-height: 60px;
+    margin-right: 10px;
+}
+
+.gasebos__button-left_blue {
+    background: url(../../../images/ArrowLeftBlue.svg);
+    background-size: cover;
+}
+
+.gasebos__button-left_orange {
+    background: url(../../../images/ArrowLeftOrange.svg);
+    background-size: cover;
+}
+
+.gasebos__button-left_green {
+    background: url(../../../images/ArrowLeftGreen.svg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 550px) {
+    .gasebos__button-left {
+        border: none;
+        min-width: 25px;
+        min-height: 25px;
+        margin-right: 5px;
+    }
+ }

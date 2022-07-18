@@ -1,0 +1,21 @@
+.intro__button {
+    width: 178px;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: #009746;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 38px;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__button {
+        margin-top: 18px;
+    }
+ }

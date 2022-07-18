@@ -1,0 +1,27 @@
+.gasebos__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    max-width: 335px;
+}
+
+@media screen and (max-width: 900px) {
+    .gasebos__info {
+        order: 1;
+        margin: 0;
+        max-width: 500px;
+    }
+ }
+
+ @media screen and (max-width: 655px) {
+    .gasebos__info {
+        max-width: 394px;
+    }  
+ }
+
+ @media screen and (max-width: 550px) {
+    .gasebos__info {
+        max-width: 255px;
+    }  
+ }

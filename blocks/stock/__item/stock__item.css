@@ -1,0 +1,26 @@
+.stock__item {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.box {
+    background-image: url(../../../images/StockBox.png);
+}
+
+.birthday {
+    background-image: url(../../../images/StockBirthday.png);
+}
+
+.people {
+    background-image: url(../../../images/StockPeople.png);
+}
+
+@media screen and (max-width: 550px) {
+    .stock__item {
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,12 @@
+.stock__name_subtitle {
+    font-family: 'Roboto', "Arial", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3F3B3D;
+    margin: 0;
+    padding-bottom: 20px;
+}

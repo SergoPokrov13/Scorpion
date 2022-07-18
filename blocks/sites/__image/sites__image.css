@@ -1,0 +1,18 @@
+.sites__image {
+    margin-top: -460px;
+    z-index: 10;
+}
+
+ @media screen and (max-width: 1020px) {
+    .sites__image {
+        margin-top: -260px;
+        width: 485px;
+    }
+ }
+
+ @media screen and (max-width: 720px) {
+    .sites__image {
+        margin-top: -90px;
+        width: 255px;
+    }
+ }
