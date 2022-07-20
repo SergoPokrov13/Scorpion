@@ -1,5 +1,7 @@
 .gasebos__image {
-    max-width: 494px;
+    border-radius: 10px;
+    width: 494px;
+    max-height: 304px;
 }
 
 @media screen and (max-width: 655px) {

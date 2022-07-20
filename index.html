@@ -20,7 +20,7 @@
                     <li class="header__item button"><a class="header__link" href="#sites">Площадки</a></li>
                     <li class="header__item button"><a class="header__link" href="#gasebos">Беседки</a></li>
                     <li class="header__item button"><a class="header__link" href="#price">Цены</a></li>
-                    <li class="header__item button"><a class="header__link" href="#">Запись</a></li>
+                    <li class="header__item button"><a class="header__link" href="#recording">Запись</a></li>
                     <li class="header__item button"><a class="header__link" href="#stock">Акции</a></li>
                     <li class="header__item button"><a class="header__link" href="#contact">Контакты</a></li>
                 </ul>
@@ -32,7 +32,7 @@
 
         <main class="content">
             <section class="intro">
-                <img class="intro__image" src="./images/Intro photo.png" alt="Пентбольный Игрок">
+                <img class="intro__image" src="./images/IntroPhoto.png" alt="Пентбольный Игрок">
                 <div class="intro__info">
                     <h1 class="intro__title">Пейнтбольный клуб "Scorpion"
                         От нас вы точно уйдёте с отличным настроением!</h1>
@@ -61,79 +61,109 @@
                 <div class="sites__block">
                     <div class="sites__item">
                         <p class="sites__subtitle green">“Бочки”</p>
-                        <img class="sites__background-color" src="./images/ColorGreenSites.png" alt="">
+                        <img class="sites__background-color" src="./images/ColorGreenSites.png" alt="Зеленная капля краски">
                     </div>
-                    <img class="sites__image" src="./images/SitesBochki.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_green button"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_green button"></button>
+                    <div class="slideshow">
+                        <img class="sites__image slide" src="./images/SitesBochkiL.png" alt="Бочки">
+                        <img class="sites__image slide" src="./images/SitesBochki.png" alt="Бочки">
+                        <img class="sites__image slide" src="./images/SitesBochkiR.png" alt="Бочки">
+                        <button type="button" data-way="prev"
+                            class="sites__button-left sites__button-left_green button"></button>
+                        <button type="button" data-way="next"
+                            class="sites__button-rigt sites__button-rigt_green button"></button>
+                    </div>
                 </div>
                 <div class="sites__block">
                     <div class="sites__item">
                         <p class="sites__subtitle orange">“Березовая рощица”</p>
-                        <img class="sites__background-color" src="./images/ColorOrangeSites.png" alt="">
+                        <img class="sites__background-color" src="./images/ColorOrangeSites.png" alt="Оранжевая капля краски">
                     </div>
-                    <img class="sites__image" src="./images/SitesGrove.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_orange button"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_orange button"></button>
+                    <div class="slideshow">
+                        <img class="sites__image slide" src="./images/SitesGroveL.png" alt="Березовая рощица">
+                        <img class="sites__image slide" src="./images/SitesGrove.png" alt="Березовая рощица">
+                        <img class="sites__image slide" src="./images/SitesGroveR.png" alt="Березовая рощица">
+                        <button type="button" data-way="prev"
+                            class="sites__button-left sites__button-left_orange button"></button>
+                        <button type="button" data-way="next"
+                            class="sites__button-rigt sites__button-rigt_orange button"></button>
+                    </div>
                 </div>
                 <div class="sites__block">
                     <div class="sites__item">
                         <p class="sites__subtitle blue">“Форт”</p>
-                        <img class="sites__background-color" src="./images/ColorBlueSites.png" alt="">
+                        <img class="sites__background-color" src="./images/ColorBlueSites.png" alt="Синия капля краски">
                     </div>
-                    <img class="sites__image" src="./images/SitesFort.png" alt="">
-                    <button type="button" class="sites__button-left sites__button-left_blue button"></button>
-                    <button type="button" class="sites__button-rigt sites__button-rigt_blue button"></button>
+                    <div class="slideshow">
+                        <img class="sites__image slide" src="./images/SitesFortL.png" alt="Форт">
+                        <img class="sites__image slide" src="./images/SitesFort.png" alt="Форт">
+                        <img class="sites__image slide" src="./images/SitesFortR.png" alt="Форт">
+                        <button type="button" data-way="prev"
+                            class="sites__button-left sites__button-left_blue button"></button>
+                        <button type="button" data-way="next"
+                            class="sites__button-rigt sites__button-rigt_blue button"></button>
+                    </div>
                 </div>
             </section>
             <section id="gasebos" class="gasebos">
-                <img class="gasebos__color-pink" src="./images/ColorPink.png" alt="">
-                <img class="gasebos__title" src="./images/GazebosTitle.svg" alt="">
+                <img class="gasebos__color-pink" src="./images/ColorPink.png" alt="Розовая капля краски">
+                <img class="gasebos__title" src="./images/GazebosTitle.svg" alt="Беседки">
                 <div class="gasebos__block">
-                    <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_blue button"></button>
-                        <img class="gasebos__image" src="./images/GazebosOne.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_blue button"></button>
+                    <div class="gasebos__slide slideshow">
+                        <button type="button" data-way="prev"
+                            class="gasebos__button-left gasebos__button-left_blue button"></button>
+                        <img class="gasebos__image slide" src="./images/GazebosOne.png" alt="Беседка 1">
+                        <img class="gasebos__image slide" src="./images/GasebosOneL.JPG" alt="Беседка 1">
+                        <img class="gasebos__image slide" src="./images/GasebosOneR.JPG" alt="Беседка 1">
+                        <button type="button" data-way="next"
+                            class="gasebos__button-rigt gasebos__button-rigt_blue button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 1</h2>
-                        <p class="gasebos__info-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                            vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-                            litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="gasebos__info-subtitle">Закрытая теплая комфортная беседка. Оборудована
+                            печкой-буржуйкой, освещением для тёмного времени суток, два стола и лавочки. Вентилируемые
+                            окна.
+                            Вместительность беседки около 40 человек.</p>
                     </div>
                 </div>
                 <div class="gasebos__block">
-                    <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_orange button"></button>
-                        <img class="gasebos__image" src="./images/GasebosTwo.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_orange button"></button>
+                    <div class="gasebos__slide slideshow">
+                        <button type="button" data-way="prev"
+                            class="gasebos__button-left gasebos__button-left_orange button"></button>
+                        <img class="gasebos__image slide" src="./images/GasebosTwo.png" alt="Беседка 2">
+                        <img class="gasebos__image slide" src="./images/GasebosTwoL.JPG" alt="Беседка 2">
+                        <img class="gasebos__image slide" src="./images/GasebosTwoR.JPG" alt="Беседка 2">
+                        <button type="button" data-way="next"
+                            class="gasebos__button-rigt gasebos__button-rigt_orange button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 2</h2>
-                        <p class="gasebos__info-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                            vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-                            litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="gasebos__info-subtitle"> Закрытая теплая комфортная беседка. Оборудована
+                            печкой-буржуйкой, освещением для тёмного времени суток, стол и лавочки. Вентилируемые окна.
+                            Вместительность беседки около 18 человек.</p>
                     </div>
                 </div>
                 <div class="gasebos__block">
-                    <div class="gasebos__slide">
-                        <button type="button" class="gasebos__button-left gasebos__button-left_green button"></button>
-                        <img class="gasebos__image" src="./images/GasebosThree.png" alt="">
-                        <button type="button" class="gasebos__button-rigt gasebos__button-rigt_green button"></button>
+                    <div class="gasebos__slide slideshow">
+                        <button type="button" data-way="prev"
+                            class="gasebos__button-left gasebos__button-left_green button"></button>
+                        <img class="gasebos__image slide" src="./images/GasebosThree.png" alt="Беседка 3">
+                        <img class="gasebos__image slide" src="./images/GasebosThreeL.JPG" alt="Беседка 3">
+                        <img class="gasebos__image slide" src="./images/GasebosThreeR.JPG" alt="Беседка 3">
+                        <button type="button" data-way="next"
+                            class="gasebos__button-rigt gasebos__button-rigt_green button"></button>
                     </div>
                     <div class="gasebos__info">
                         <h2 class="gasebos__info-title">Беседка 3</h2>
-                        <p class="gasebos__info-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                            vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-                            litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="gasebos__info-subtitle">Комфортный навес. Оборудован освещением для тёмного времени
+                            суток, два стола и лавочки. Вместительность беседки около 40 человек.</p>
                     </div>
                 </div>
-                <img class="gasebos__color-orange-yelow" src="./images/ColorOrngeYelow.png" alt="">
+                <img class="gasebos__color-orange-yelow" src="./images/ColorOrngeYelow.png" alt="Оранжево-желстая капля краски">
             </section>
             <section id="price" class="price">
-                <img class="price__title" src="./images/PriceTitle.svg" alt="">
+                <img class="price__title" src="./images/PriceTitle.svg" alt="Цены">
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceVhod.png" alt="">
+                    <img class="price__image" src="./images/PriceVhod.png" alt="Вход прокат">
                     <div class="price__info">
                         <h2 class="price__info_title">Вход прокат</h2>
                         <p class="price__info_subtitle">Куртка, штаны, перчатки, маска, маркер, выход на поле,
@@ -144,7 +174,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceBalls.png" alt="">
+                    <img class="price__image" src="./images/PriceBalls.png" alt="Шары">
                     <div class="price__info">
                         <h2 class="price__info_title">Шары</h2>
                         <p class="price__info_subtitle">минимальное количество на человека 200 шт.</p>
@@ -154,7 +184,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceVest.png" alt="">
+                    <img class="price__image" src="./images/PriceVest.png" alt="Жилет">
                     <div class="price__info">
                         <h2 class="price__info_title">Жилет</h2>
                         <p class="price__info_subtitle">Служит для защиты тела</p>
@@ -164,7 +194,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceGrenade.png" alt="">
+                    <img class="price__image" src="./images/PriceGrenade.png" alt="Граната">
                     <div class="price__info">
                         <h2 class="price__info_title">Граната</h2>
                         <p class="price__info_subtitle">Специальная граната для игры в пейнтбол</p>
@@ -174,7 +204,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceSmoke.png" alt="">
+                    <img class="price__image" src="./images/PriceSmoke.png" alt="Дым">
                     <div class="price__info">
                         <h2 class="price__info_title">Дым</h2>
                         <p class="price__info_subtitle">Пейнтбольный дым</p>
@@ -184,7 +214,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceZone.png" alt="">
+                    <img class="price__image" src="./images/PriceZone.png" alt="Зона отдыха">
                     <div class="price__info">
                         <h2 class="price__info_title">Зона отдыха</h2>
                         <p class="price__info_subtitle">сверхурочное время 1 час с человека</p>
@@ -194,7 +224,7 @@
                     </div>
                 </div>
                 <div class="price__block">
-                    <img class="price__image" src="./images/PriceTrunk.png" alt="">
+                    <img class="price__image" src="./images/PriceTrunk.png" alt="Удлиненный ствол">
                     <div class="price__info">
                         <h2 class="price__info_title">Удлиненный ствол</h2>
                         <p class="price__info_subtitle">увеличивает дальность и точность стрельбы</p>
@@ -203,14 +233,14 @@
                         </div>
                     </div>
                 </div>
-                <img class="price__color-greeen" src="./images/ColorGreen.png" alt="">
+                <img class="price__color-greeen" src="./images/ColorGreen.png" alt="Капля зеленной краски">
             </section>
-            <section class="recording">
-                <img class="recording__title" src="./images/Recording.svg" alt="">
+            <section id="recording" class="recording">
+                <img class="recording__title" src="./images/Recording.svg" alt="Запись">
             </section>
             <section id="stock" class="stock">
-                <img class="stock__color-blue" src="./images/ColorBlue.png" alt="">
-                <img class="stock__title" src="./images/StockTitle.svg" alt="">
+                <img class="stock__color-blue" src="./images/ColorBlue.png" alt="Синия капля краски">
+                <img class="stock__title" src="./images/StockTitle.svg" alt="Акции">
                 <div class="stock__info">
                     <div class="stock__block">
                         <div class="stock__name">
@@ -243,25 +273,25 @@
                 </div>
             </section>
             <section id="contact" class="contact">
-                <img class="contact__g-title" src="./images/ContactTitle.svg" alt="">
+                <img class="contact__g-title" src="./images/ContactTitle.svg" alt="Контакты">
                 <ul class="contact__list">
                     <li class="contact__item">
-                        <img class="contact__image" src="./images/ContactMap.svg" alt="">
+                        <img class="contact__image" src="./images/ContactMap.svg" alt="Карты">
                         <h2 class="contact__title">Адрес</h2>
                         <p class="contact__subtitle">Аэодром “Ясюниха”</p>
                     </li>
                     <li class="contact__item">
-                        <img class="contact__image" src="./images/ContactMode.svg" alt="">
+                        <img class="contact__image" src="./images/ContactMode.svg" alt="Режим">
                         <h2 class="contact__title">Режим работы</h2>
                         <p class="contact__subtitle">По заказам</p>
                     </li>
                     <li class="contact__item">
-                        <img class="contact__image" src="./images/ContactTelephone.svg" alt="">
+                        <img class="contact__image" src="./images/ContactTelephone.svg" alt="Телефон">
                         <h2 class="contact__title">Телефон</h2>
                         <p class="contact__subtitle">+7(4932)367-333</p>
                     </li>
                     <li class="contact__item">
-                        <img class="contact__image" src="./images/ContactMail.svg" alt="">
+                        <img class="contact__image" src="./images/ContactMail.svg" alt="Почта">
                         <h2 class="contact__title">Email</h2>
                         <p class="contact__subtitle">scorpion367-333@mail.ru</p>
                     </li>
@@ -292,34 +322,34 @@
                     <li class="footer__link button"><a class="footer__text" href="#sites">Площадки</a></li>
                     <li class="footer__link button"><a class="footer__text" href="#gasebos">Беседки</a></li>
                     <li class="footer__link button"><a class="footer__text" href="#price">Цены</a></li>
-                    <li class="footer__link button"><a class="footer__text" href="#">Запись</a></li>
+                    <li class="footer__link button"><a class="footer__text" href="#recording">Запись</a></li>
                     <li class="footer__link button"><a class="footer__text" href="#stock">Акции</a></li>
                     <li class="footer__link button"><a class="footer__text" href="#contact">Контакты</a></li>
                 </ul>
                 <ul class="footer__list">
                     <li class="footer__item">
-                        <img class="footer__image" src="./images/FooterMap.svg" alt="">
+                        <img class="footer__image" src="./images/FooterMap.svg" alt="Карты">
                         <div class="footer__item-info">
                             <h2 class="footer__item-title">Адрес</h2>
                             <p class="footer__item-subtitle">Аэодром “Ясюниха”</p>
                         </div>
                     </li>
                     <li class="footer__item">
-                        <img class="footer__image" src="./images/FooterTelephone.svg" alt="">
+                        <img class="footer__image" src="./images/FooterTelephone.svg" alt="Телефон">
                         <div class="footer__item-info">
                             <h2 class="footer__item-title">Телефон</h2>
                             <p class="footer__item-subtitle">+7(4932)367-333</p>
                         </div>
                     </li>
                     <li class="footer__item">
-                        <img class="footer__image" src="./images/FooterMode.svg" alt="">
+                        <img class="footer__image" src="./images/FooterMode.svg" alt="Режим">
                         <div class="footer__item-info">
                             <h2 class="footer__item-title">Режим работы</h2>
                             <p class="footer__item-subtitle">По заказам</p>
                         </div>
                     </li>
                     <li class="footer__item">
-                        <img class="footer__image" src="./images/FooterMail.svg" alt="">
+                        <img class="footer__image" src="./images/FooterMail.svg" alt="Почта">
                         <div class="footer__item-info">
                             <h2 class="footer__item-title">Email</h2>
                             <p class="footer__item-subtitle">scorpion367-333<br>@mail.ru</p>
@@ -329,7 +359,8 @@
             </div>
         </footer>
 
-        <script src="./scripts/index.js"></script>
+        <script src="./scripts/slide.js"></script>
+        <script src="./scripts/menu.js"></script>
 
     </div>
 </body>

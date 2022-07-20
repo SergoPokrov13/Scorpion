@@ -89,4 +89,13 @@
 @import url(../blocks/footer/__item-title/footer__item-title.css);
 @import url(../blocks/footer/__item-subtitle/footer__item-subtitle.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/slideshow/slideshow.css);
+@import url(../blocks/slide/slide.css);
 
+@media screen and (prefers-reduced-motion: no-preference) {
+
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+}

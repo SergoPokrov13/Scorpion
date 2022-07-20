@@ -1,0 +1,19 @@
+.slide {
+    display: none;
+    position: relative;
+}
+
+.slide.active {
+    display: block;
+    animation: opacity ease-in-out 0.3s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.9;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -3,7 +3,7 @@
     border: none;
     min-width: 60px;
     min-height: 60px;
-    top: 280px;
+    top: -300px;
     left: -70px;
 }
 
@@ -24,12 +24,7 @@
 
 @media screen and (max-width: 1020px) {
     .sites__button-left {
-        position: absolute;
-        border: none;
-        min-width: 60px;
-        min-height: 60px;
-        top: 230px;
-        left: -70px;
+        top: -165px;
     }
  }
 
@@ -37,7 +32,7 @@
     .sites__button-left {
         min-height: 25px;
         min-width: 25px;
-        top: 75px;
+        top: -40px;
         left: -25px;
     }
  }
