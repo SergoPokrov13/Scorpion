@@ -1,6 +1,9 @@
 .sites__image {
     margin-top: -460px;
     z-index: 10;
+    width: 768px;
+    max-height: 380px;
+    object-fit: cover;
 }
 
  @media screen and (max-width: 1020px) {

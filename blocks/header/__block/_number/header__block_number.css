@@ -6,6 +6,9 @@
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
+    min-height: 20px;
+    margin-top: 5px;
 }
 
 

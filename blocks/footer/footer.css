@@ -3,6 +3,7 @@
     justify-content: center;
     background: #3F3B3D;
     min-height: 450px;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 670px) {
