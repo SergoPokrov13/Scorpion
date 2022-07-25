@@ -60,8 +60,8 @@
 @import url(../blocks/stock/__info/stock__info.css);
 @import url(../blocks/stock/__block/stock__block.css);
 @import url(../blocks/stock/__name/stock__name.css);
-@import url(../blocks/stock/__name/_title/stock__name_title.css);
-@import url(../blocks/stock/__name/_subtitle/stock__name_subtitle.css);
+@import url(../blocks/stock/__name-subtitle/stock__name-subtitle.css);
+@import url(../blocks/stock/__name-title/stock__name-title.css);
 @import url(../blocks/stock/__item/stock__item.css);
 @import url(../blocks/stock/__text/stock__text.css);
 @import url(../blocks/contact/contact.css);
