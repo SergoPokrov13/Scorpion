@@ -10,6 +10,11 @@
     text-align: center;
     letter-spacing: 0.56px;
     color: #FFFFFF;
+    transition: .1s opacity linear;
+}
+
+.footer__item-subtitle:hover {
+    opacity: .6;
 }
 
 @media screen and (max-width: 390px) {
